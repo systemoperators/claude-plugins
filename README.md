@@ -1,13 +1,18 @@
-# alto.index Claude Plugins
+# system operator Claude plugins
 
-Claude Code plugin marketplace by [alto.index](https://altoindex.com).
+Claude Code plugin marketplace by [system operator](https://systemoperator.com).
 
 ## Install
 
 In Claude Code, go to Browse Plugins > Add marketplace from GitHub and enter: `https://github.com/systemoperators/claude-plugins`
 
-## Commands
+## Plugins
 
+### alto.index
+
+Work with your macOS app data synced by [alto.index](https://altoindex.com) ([download from Mac App Store](https://apps.apple.com/us/app/alto-index/id6746674846?mt=12)).
+
+Commands:
 - `/altoindex:today` - daily briefing across all sources
 - `/altoindex:search [query]` - search across all sources
 - `/altoindex:summary [source]` - summarize a data source
@@ -20,9 +25,13 @@ In Claude Code, go to Browse Plugins > Add marketplace from GitHub and enter: `h
 - `/altoindex:meetings [query]` - browse Granola meeting notes
 - `/altoindex:voice-memos` - browse Voice Memos recordings
 
-Also auto-invokes when you ask about your personal data naturally.
+### tinydot
 
-## Requirements
+Draft, edit, review, and publish content on [tinydot](https://tinydot.com) sites.
 
-- [alto.index](https://altoindex.com) macOS app installed and synced ([download from Mac App Store](https://apps.apple.com/us/app/alto-index/id6746674846?mt=12))
-- data exported to `~/Documents/alto-index/`
+Commands:
+- `/tinydot:draft [topic]` - create a new page
+- `/tinydot:edit [page]` - edit an existing page
+- `/tinydot:review [site]` - review site content for issues
+- `/tinydot:customize [site]` - modify site appearance
+- `/tinydot:sites` - list sites with URLs and page counts

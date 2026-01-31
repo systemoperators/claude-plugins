@@ -8,6 +8,11 @@
       "name": "altoindex",
       "source": "./altoindex",
       "description": "Work with your Apple Notes, Apple Reminders, Apple Calendar, iMessage, Safari, Apple Contacts, Voice Memos, and Granola data synced by alto.index. Includes native app deep links back to every item."
+    },
+    {
+      "name": "tinydot",
+      "source": "./tinydot",
+      "description": "Draft, edit, review, and publish content on tinydot sites through natural conversation. Works with tinydot markdown, wikilinks, embeds, frontmatter, and site customization."
     }
   ]
 }

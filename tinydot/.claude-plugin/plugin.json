@@ -1,0 +1,11 @@
+{
+  "name": "tinydot",
+  "version": "1.0.0",
+  "description": "Draft, edit, review, and publish content on tinydot sites through natural conversation",
+  "author": {
+    "name": "tinydot",
+    "url": "https://tinydot.com"
+  },
+  "homepage": "https://docs.tinydot.com",
+  "license": "MIT"
+}
