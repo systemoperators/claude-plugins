@@ -12,7 +12,7 @@
     {
       "name": "tinydot",
       "source": "./tinydot",
-      "description": "Draft, edit, review, and publish content on tinydot sites through natural conversation. Works with tinydot markdown, wikilinks, embeds, frontmatter, and site customization."
+      "description": "Draft, edit, review, import, and publish content on tinydot sites through natural conversation. Import external websites, work with tinydot markdown, wikilinks, embeds, frontmatter, and site customization."
     }
   ]
 }

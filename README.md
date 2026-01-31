@@ -35,3 +35,4 @@ Commands:
 - `/tinydot:review [site]` - review site content for issues
 - `/tinydot:customize [site]` - modify site appearance
 - `/tinydot:sites` - list sites with URLs and page counts
+- `/tinydot:import [url]` - import an external website into a tinydot site
