@@ -1,0 +1,13 @@
+{
+  "name": "altoindex-plugins",
+  "owner": {
+    "name": "AltoIndex"
+  },
+  "plugins": [
+    {
+      "name": "altoindex",
+      "source": "./altoindex",
+      "description": "Work with your Apple Notes, Apple Reminders, Apple Calendar, iMessage, Safari, Apple Contacts, Voice Memos, and Granola data synced by alto.index. Includes native app deep links back to every item."
+    }
+  ]
+}

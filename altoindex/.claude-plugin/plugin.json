@@ -1,0 +1,13 @@
+{
+  "name": "altoindex",
+  "version": "1.0.0",
+  "description": "Work with your Apple Notes, Apple Reminders, Apple Calendar, iMessage, Safari, Apple Contacts, Voice Memos, and Granola data synced by alto.index",
+  "author": {
+    "name": "AltoIndex",
+    "email": "hi@altoindex.com",
+    "url": "https://altoindex.com"
+  },
+  "homepage": "https://altoindex.com",
+  "license": "MIT",
+  "keywords": ["apple", "notes", "reminders", "calendar", "messages", "macos", "personal-data", "alto-index"]
+}
