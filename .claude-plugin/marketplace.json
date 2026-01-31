@@ -1,7 +1,7 @@
 {
-  "name": "altoindex-plugins",
+  "name": "system-operator",
   "owner": {
-    "name": "AltoIndex"
+    "name": "system operator"
   },
   "plugins": [
     {
