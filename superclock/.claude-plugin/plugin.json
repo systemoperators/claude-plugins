@@ -10,6 +10,7 @@
   "homepage": "https://superclock.app/agents",
   "repository": "https://github.com/systemoperators/claude-plugins",
   "license": "MIT",
+  "privacyPolicyUrl": "https://superclock.app/privacy",
   "keywords": [
     "superclock",
     "productivity",
