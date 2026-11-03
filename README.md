@@ -40,3 +40,7 @@ Commands:
 ### Superclock
 
 Real alarms on your iPhone, set from a conversation, with [Superclock](https://superclock.app). Connects to Superclock's MCP server at `https://mcp.superclock.app/mcp` (sign in on Superclock's own page), with skills for setting, changing and removing alarms. See [superclock/README.md](superclock/README.md).
+
+### Folder
+
+Find, read, save and edit files in your [Folder](https://folder.dev) folders. Connects to Folder's MCP server at `https://mcp.folder.dev/mcp` (sign in on Folder's own page and choose the folders it may use), with skills for working with files and setting up. See [folder/README.md](folder/README.md).

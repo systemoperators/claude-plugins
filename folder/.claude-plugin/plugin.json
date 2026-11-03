@@ -1,0 +1,19 @@
+{
+  "name": "folder",
+  "displayName": "Folder",
+  "version": "0.1.1",
+  "description": "Find, read, save and edit files in your Folder folders.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://folder.dev",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://folder.dev/privacy",
+  "keywords": [
+    "folder",
+    "productivity",
+    "mcp"
+  ]
+}

@@ -18,6 +18,11 @@
       "name": "superclock",
       "source": "./superclock",
       "description": "Real alarms on your iPhone, set from a conversation: set, move, pause and remove alarms and start timers in Superclock, with Undo."
+    },
+    {
+      "name": "folder",
+      "source": "./folder",
+      "description": "Find, read, save and edit files in your Folder folders: every change is a new version in the file's history, so any of it can be put back."
     }
   ]
 }

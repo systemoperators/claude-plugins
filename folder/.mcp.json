@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "folder": {
+      "type": "http",
+      "url": "https://mcp.folder.dev/mcp"
+    }
+  }
+}
