@@ -36,3 +36,7 @@ Commands:
 - `/tinydot:customize [site]` - modify site appearance
 - `/tinydot:sites` - list sites with URLs and page counts
 - `/tinydot:import [url]` - import an external website into a tinydot site
+
+### Superclock
+
+Real alarms on your iPhone, set from a conversation, with [Superclock](https://superclock.app). Connects to Superclock's MCP server at `https://mcp.superclock.app/mcp` (sign in on Superclock's own page), with skills for setting, changing and removing alarms. See [superclock/README.md](superclock/README.md).

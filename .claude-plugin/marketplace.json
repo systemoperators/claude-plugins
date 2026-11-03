@@ -13,6 +13,11 @@
       "name": "tinydot",
       "source": "./tinydot",
       "description": "Draft, edit, review, import, and publish content on tinydot sites through natural conversation. Import external websites, work with tinydot markdown, wikilinks, embeds, frontmatter, and site customization."
+    },
+    {
+      "name": "superclock",
+      "source": "./superclock",
+      "description": "Real alarms on your iPhone, set from a conversation: set, move, pause and remove alarms and start timers in Superclock, with Undo."
     }
   ]
 }
