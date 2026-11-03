@@ -1,0 +1,19 @@
+{
+  "name": "wander",
+  "displayName": "Wander",
+  "version": "0.2.0",
+  "description": "Search, read, create and edit notes in Wander.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://wander.md",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://wander.md/privacy",
+  "keywords": [
+    "wander",
+    "productivity",
+    "mcp"
+  ]
+}

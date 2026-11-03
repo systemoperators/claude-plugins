@@ -44,3 +44,7 @@ Real alarms on your iPhone, set from a conversation, with [Superclock](https://s
 ### Folder
 
 Find, read, save and edit files in your [Folder](https://folder.dev) folders. Connects to Folder's MCP server at `https://mcp.folder.dev/mcp` (sign in on Folder's own page and choose the folders it may use), with skills for working with files and setting up. See [folder/README.md](folder/README.md).
+
+### Wander
+
+Search, read, create and edit notes in [Wander](https://wander.md). Connects to Wander's MCP server at `https://mcp.wander.md/mcp` (sign in on Wander's own page and pick the vaults it may use), with skills for working with notes and setting up. See [wander/README.md](wander/README.md).

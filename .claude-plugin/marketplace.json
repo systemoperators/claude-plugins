@@ -23,6 +23,11 @@
       "name": "folder",
       "source": "./folder",
       "description": "Find, read, save and edit files in your Folder folders: every change is a new version in the file's history, so any of it can be put back."
+    },
+    {
+      "name": "wander",
+      "source": "./wander",
+      "description": "Search, read, create and edit notes in Wander: every change is a new version you can undo, and publishing or trashing a note asks you first."
     }
   ]
 }
