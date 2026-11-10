@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "onlyfonts": {
+      "type": "http",
+      "url": "https://mcp.onlyfonts.ai/mcp"
+    }
+  }
+}

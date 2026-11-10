@@ -1,0 +1,19 @@
+{
+  "name": "onlyfonts",
+  "displayName": "OnlyFonts",
+  "version": "1.0.0",
+  "description": "Free, openly licensed fonts and the CSS to use them.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://onlyfonts.ai/docs/mcp",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://onlyfonts.ai/privacy",
+  "keywords": [
+    "onlyfonts",
+    "design",
+    "mcp"
+  ]
+}

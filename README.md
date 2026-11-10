@@ -48,3 +48,7 @@ Find, read, save and edit files in your [Folder](https://folder.dev) folders. Co
 ### Wander
 
 Search, read, create and edit notes in [Wander](https://wander.md). Connects to Wander's MCP server at `https://mcp.wander.md/mcp` (sign in on Wander's own page and pick the vaults it may use), with skills for working with notes and setting up. See [wander/README.md](wander/README.md).
+
+### OnlyFonts
+
+Find free, openly licensed fonts for whatever you are making, and the CSS that loads them, with [OnlyFonts](https://onlyfonts.ai). Connects to the OnlyFonts MCP server at `https://mcp.onlyfonts.ai/mcp` (no account and no sign-in), with a skill for choosing fonts for a project. See [onlyfonts/README.md](onlyfonts/README.md).

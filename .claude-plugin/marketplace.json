@@ -28,6 +28,11 @@
       "name": "wander",
       "source": "./wander",
       "description": "Search, read, create and edit notes in Wander: every change is a new version you can undo, and publishing or trashing a note asks you first."
+    },
+    {
+      "name": "onlyfonts",
+      "source": "./onlyfonts",
+      "description": "Find free, openly licensed fonts by style, use or language, read a font's weights, license and pairings, and get the CSS that loads them."
     }
   ]
 }
