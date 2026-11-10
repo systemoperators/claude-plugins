@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "exporter": {
+      "type": "http",
+      "url": "https://mcp.exporter.dev/mcp"
+    }
+  }
+}

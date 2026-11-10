@@ -1,0 +1,19 @@
+{
+  "name": "exporter",
+  "displayName": "Exporter",
+  "version": "1.0.0",
+  "description": "Search and read your Linear and Notion, and see what changed.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://exporter.dev/agents",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://exporter.dev/privacy",
+  "keywords": [
+    "exporter",
+    "productivity",
+    "mcp"
+  ]
+}

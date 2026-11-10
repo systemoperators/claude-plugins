@@ -33,6 +33,11 @@
       "name": "onlyfonts",
       "source": "./onlyfonts",
       "description": "Find free, openly licensed fonts by style, use or language, read a font's weights, license and pairings, and get the CSS that loads them."
+    },
+    {
+      "name": "exporter",
+      "source": "./exporter",
+      "description": "Search and read your Linear and Notion, see what changed and what a page said before; and with Exporter for Mac, export Apple Notes, Messages and more and read them through its local server."
     }
   ]
 }
