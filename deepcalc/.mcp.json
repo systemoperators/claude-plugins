@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "deepcalc": {
+      "type": "http",
+      "url": "https://mcp.deepcalc.com/mcp"
+    }
+  }
+}

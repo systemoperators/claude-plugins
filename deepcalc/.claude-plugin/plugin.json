@@ -1,0 +1,19 @@
+{
+  "name": "deepcalc",
+  "displayName": "Deepcalc",
+  "version": "0.1.0",
+  "description": "Read, check and change spreadsheets in deepcalc; every change waits on a branch for the person.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://deepcalc.com",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://deepcalc.com/privacy",
+  "keywords": [
+    "deepcalc",
+    "productivity",
+    "mcp"
+  ]
+}

@@ -38,6 +38,11 @@
       "name": "exporter",
       "source": "./exporter",
       "description": "Search and read your Linear and Notion, see what changed and what a page said before; and with Exporter for Mac, export Apple Notes, Messages and more and read them through its local server."
+    },
+    {
+      "name": "deepcalc",
+      "source": "./deepcalc",
+      "description": "Read, check and change your deepcalc spreadsheets: what a model assumes, whether a total adds up, what happens if a number changes. Every change waits on a branch you keep or not."
     }
   ]
 }
