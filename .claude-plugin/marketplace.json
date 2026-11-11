@@ -43,11 +43,6 @@
       "name": "deepcalc",
       "source": "./deepcalc",
       "description": "Read, check and change your deepcalc spreadsheets: what a model assumes, whether a total adds up, what happens if a number changes. Every change waits on a branch you keep or not."
-    },
-    {
-      "name": "outliner",
-      "source": "./outliner",
-      "description": "Your Apple notes, reminders, calendar, contacts, messages and mail, searchable by Claude on your Mac through Outliner Pro: find, read, and save notes, reminders and events through the Apple apps."
     }
   ]
 }

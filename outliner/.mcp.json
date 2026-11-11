@@ -1,5 +1,0 @@
-{
-  "mcpServers": {
-    "outliner": { "command": "outliner", "args": ["mcp", "--stdio"] }
-  }
-}
