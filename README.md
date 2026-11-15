@@ -52,3 +52,7 @@ Search, read, create and edit notes in [Wander](https://wander.md). Connects to 
 ### OnlyFonts
 
 Find free, openly licensed fonts for whatever you are making, and the CSS that loads them, with [OnlyFonts](https://onlyfonts.ai). Connects to the OnlyFonts MCP server at `https://mcp.onlyfonts.ai/mcp` (no account and no sign-in), with a skill for choosing fonts for a project. See [onlyfonts/README.md](onlyfonts/README.md).
+
+### Outliner
+
+Your Apple Notes, Reminders, Calendar, Contacts, Messages and Mail, searchable by Claude Code on your Mac with [Outliner](https://outliner.app). A skill that runs the `outliner` command Outliner Pro installs, with no MCP server: find, read, and save notes, reminders and events through the Apple apps. See [outliner/README.md](outliner/README.md).
