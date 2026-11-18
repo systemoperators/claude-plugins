@@ -2,9 +2,9 @@
 
 Use the files in your Folder folders in Claude. Find files by name, read them, and answer from what they say. Save a summary of the chat as a new file, save a file you uploaded, or edit the text of one.
 
-Every change is a new version in the file's history, so any of it can be put back. Make a share link for a file in a folder in your own Cloudflare; Claude asks you before a link reaches anyone. Nothing is deleted or moved.
+Every change is a new version in the file's history, so any of it can be put back. Make a share link for any file; Claude asks you before a link reaches anyone. Nothing is deleted or moved.
 
-Connect your Folder account and choose which folders Claude can use, and whether it may change them.
+Sign in with Apple or Google and choose which folders Claude can use, and whether it may change them. New to Folder? Start without an account: a folder for 24 hours, kept any time with Apple or Google.
 
 ## What the plugin holds
 
@@ -12,6 +12,7 @@ Connect your Folder account and choose which folders Claude can use, and whether
 - skills, which tell Claude how to use its tools:
   - folder-files: Find, read, save and edit files in Folder, see their history, put a version back and share a link when asked.
   - folder-onboarding: Start with Folder: see which folders this connection reaches and how changes and undo work.
+  - folder-selling: Sell or give away a file from Folder, change a product, stop it, and see how it did.
 
 ## Install
 

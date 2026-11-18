@@ -21,7 +21,7 @@ Every change is a new version. list_versions lists them; restore_version with a 
 
 ## Share
 
-create_share_link makes a link anyone who has it can open, and works only for folders in the person's own Cloudflare. Its first call says who will be able to open the file and answers a confirm code: ask the person, and only after they say yes call it again with that code. revoke_share stops every link to a file; ask before it too.
+create_share_link makes a link anyone who has it can open. Its first call says who will be able to open the file and answers a confirm code: ask the person, and only after they say yes call it again with that code. revoke_share stops every link to a file; ask before it too.
 
 ## Not here
 
@@ -29,7 +29,7 @@ Deleting and moving files are not available. Say so and point to Finder, the Fil
 
 ## Available tools
 
-Generated from ops-registry.json: 11 tools. Only v1 operations are available.
+Generated from ops-registry.json: 16 tools. Only v1 operations are available.
 
 | Read tool | Returns |
 |---|---|
@@ -38,6 +38,8 @@ Generated from ops-registry.json: 11 tools. Only v1 operations are available.
 | search_files | files and folders whose name contains the words, with their folder and path; a note when a large folder was only partly looked through |
 | read_file | a text file's content (up to 256 KB) and its version; for anything bigger or not text, its size, type and the link where the person opens it |
 | list_versions | every saved version of a file, newest first: when, size, whether the person or an app saved it, and the version to pass to restore_version |
+| list_products | each file the person put up for sale on Folder: its title, link on buy.folder.dev, price, downloads so far, and whether it is on sale or taken off |
+| list_sales | the person's sales, newest first, up to 200: when, which product, the amount and the buyer's country. A free download counts at 0. The buyer's email shows when the product asked for it. With the count and the total earned |
 
 | Write tool | Action | Operation | Approval |
 |---|---|---|---|
@@ -47,3 +49,6 @@ Generated from ops-registry.json: 11 tools. Only v1 operations are available.
 | restore_version | restore | Put a version back | No extra approval |
 | create_share_link | share | Make a share link | Ask for approval first |
 | revoke_share | unshare | Stop a share link | Ask for approval first |
+| sell_file | sell | Sell a file | Ask for approval first |
+| update_product | update | Change a product | Ask for approval first |
+| unpublish_product | unpublish | Stop selling a product | Ask for approval first |

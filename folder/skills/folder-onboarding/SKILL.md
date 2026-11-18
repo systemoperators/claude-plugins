@@ -7,7 +7,7 @@ description: Start with Folder: see which folders this connection reaches and ho
 
 On first use, call list_folders to see the folders the person picked when they connected. Do not assume access to any other folder.
 
-If no folders are listed, say so and tell them to add one where they connected Folder (folder.dev, Settings, Connected apps). Do not try to make a folder: this connection cannot.
+If no folders are listed, say so and tell them to add one where they connected Folder (folder.dev, Settings, Connected apps). Do not try to make a folder: this connection cannot. When a folder holds nothing yet, the tools say so: offer to save one real thing from the chat, a note, a plan or a draft, as they suggest.
 
 Say once, when it matters, that every change is a new version in the file's history, and that restore_version puts any version back. Changes land directly; there is nothing to accept afterwards.
 
