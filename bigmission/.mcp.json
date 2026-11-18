@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bigmission": {
+      "type": "http",
+      "url": "https://mcp.bigmission.com/mcp"
+    }
+  }
+}

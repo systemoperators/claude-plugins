@@ -1,0 +1,19 @@
+{
+  "name": "tinysend",
+  "displayName": "tinysend",
+  "version": "0.1.0",
+  "description": "Write, send and follow your tinysend newsletters.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://tinysend.com",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://tinysend.com/privacy",
+  "keywords": [
+    "tinysend",
+    "productivity",
+    "mcp"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "bloodwork-reference",
+  "displayName": "Bloodwork Reference",
+  "version": "0.1.0",
+  "description": "Blood test reference: what a marker measures, the ranges named labs publish, the tests in a panel and the tests followed for a condition.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://bloodwork.md/agents",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://bloodwork.md/privacy",
+  "keywords": [
+    "bloodwork-reference",
+    "education",
+    "mcp"
+  ]
+}

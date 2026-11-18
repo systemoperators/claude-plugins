@@ -1,0 +1,19 @@
+{
+  "name": "bigmission",
+  "displayName": "Bigmission",
+  "version": "0.1.0",
+  "description": "Ask your company's books: the cash, the ledger, statements, money by product, taxes and dates, from Bigmission.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://bigmission.com/docs/chatgpt-and-claude",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://bigmission.com/privacy",
+  "keywords": [
+    "bigmission",
+    "finance",
+    "mcp"
+  ]
+}

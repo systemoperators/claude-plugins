@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tinysend": {
+      "type": "http",
+      "url": "https://mcp.tinysend.com/mcp"
+    }
+  }
+}

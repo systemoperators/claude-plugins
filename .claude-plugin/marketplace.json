@@ -48,6 +48,21 @@
       "name": "outliner",
       "source": "./outliner",
       "description": "Your Apple notes, reminders, calendar, contacts, messages and mail, searchable by Claude Code on your Mac through Outliner: find, read, and save notes, reminders and events through the Apple apps."
+    },
+    {
+      "name": "bloodwork",
+      "source": "./bloodwork",
+      "description": "Blood test reference: what a marker measures, the ranges named labs publish, the tests in a panel and the tests followed for a condition."
+    },
+    {
+      "name": "bigmission",
+      "source": "./bigmission",
+      "description": "Ask your company's books: the cash, the ledger, statements, money by product, taxes and dates, from Bigmission."
+    },
+    {
+      "name": "tinysend",
+      "source": "./tinysend",
+      "description": "Write, send and follow your tinysend newsletters."
     }
   ]
 }
