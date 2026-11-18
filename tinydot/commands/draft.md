@@ -9,7 +9,7 @@ allowed-tools: Read, Write, Glob, Grep
 
 Create a new markdown page in a tinydot site. Follow these steps:
 
-1. if no site folder is specified, list available sites in `~/Library/CloudStorage/Tinydot/` and ask which one to use
+1. if no site folder is specified, list available sites in `~/Library/CloudStorage/tinydot/` and ask which one to use
 2. ask for the topic or title (use `$ARGUMENTS` if provided)
 3. ask where in the site to create the file (root, or a subfolder)
 4. scan existing pages in the site using Glob for `**/*.md` to find related content for wikilinks

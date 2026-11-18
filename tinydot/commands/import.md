@@ -24,7 +24,7 @@ Show the user the list of discovered pages and ask which to import (all, or sele
 
 ## 3. determine site name
 
-Suggest a site name based on the domain (e.g., `example.com` -> `example`). Ask the user to confirm or change it. The site folder will be created at `~/Library/CloudStorage/Tinydot/{sitename}/`.
+Suggest a site name based on the domain (e.g., `example.com` -> `example`). Ask the user to confirm or change it. The site folder will be created at `~/Library/CloudStorage/tinydot/{sitename}/`.
 
 ## 4. fetch and convert each page
 
@@ -56,7 +56,7 @@ tags: imported
 ## 5. create navigation
 
 From the source site's header/footer navigation:
-- create matching `header_menu` and `footer_menu` in the root `index.md` frontmatter
+- create the matching header and footer menus in the site's root `settings.json`: `{"menu": {"header": [{"label": "Blog", "url": "/blog"}], "footer": [...]}}`
 - convert navigation links to local paths where pages were imported
 - keep external links as-is
 

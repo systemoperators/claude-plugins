@@ -9,7 +9,7 @@ allowed-tools: Read, Glob, Grep
 
 Review all content in a tinydot site and report issues. Follow these steps:
 
-1. if no site specified via `$ARGUMENTS`, list available sites in `~/Library/CloudStorage/Tinydot/` and ask which one
+1. if no site specified via `$ARGUMENTS`, list available sites in `~/Library/CloudStorage/tinydot/` and ask which one
 2. read all markdown files in the site folder using Glob for `**/*.md`
 3. check each page for:
    - missing frontmatter (no `title`, no `date`, no `tags`)

@@ -11,7 +11,7 @@ tinydot is a file-based publishing platform. folders = sites, files = pages. cha
 
 ## how it works
 
-- users have a tinydot folder on their Mac (via FileProvider) synced at `~/Library/CloudStorage/Tinydot/`
+- users have a tinydot folder on their Mac (via FileProvider) synced at `~/Library/CloudStorage/tinydot/`
 - each subfolder is a site with its own subdomain: `sitename.tinydot.com`
 - `.md` files render as pages, images display inline, other files are downloadable
 - URL mapping: `docs/intro.md` -> `/docs/intro`, `folder/index.md` -> `/folder/`
@@ -94,84 +94,163 @@ author: anton
 
 ref: docs.tinydot.com/file-metadata
 
-### folder metadata
+### folder settings
 
-set in `index.md` of a folder:
+a site's settings live in `settings.json` (JSON, comments allowed) at the site's root, and in any folder to change that folder and the folders inside it; the nearest file wins, key by key. a key you leave out keeps its default. older sites may still carry the same settings as root `index.md` frontmatter (`default_view`, `show_file_list`, `header_menu`): they keep working, `settings.json` is where new ones go.
 
-```yaml
----
-default_view: cards
-show_file_list: true
-title: My Folder
-description: What this folder contains
----
+```json
+{
+  "menu": {
+    "header": [
+      {
+        "label": "Blog",
+        "url": "/blog"
+      }
+    ]
+  },
+  "list": {
+    "view": "cards"
+  },
+  "header": {
+    "sticky": true
+  }
+}
 ```
 
-- `default_view`: `list` (default), `cards`, `grid`
-- `show_file_list`: `true` (default) or `false` (hides file listing, shows only index.md content)
-- settings inherit from parent folder; child overrides parent
-
-ref: docs.tinydot.com/folder-metadata
-
-## site customization
-
-set in the root `index.md` frontmatter of a site.
-
-### templates
-
-four built-in templates: `finder` (default, file-browser style), `future` (retro web), `romi` (minimal with red accents), `human` (readable)
-
-### colors
-
-```yaml
-color:
-  background: "#ffffff"
-  text: "#1a1a1a"
-  border: "#e5e5e5"
-  muted: "#666666"
-  hover: "#f5f5f5"      # finder template
-  list: "#fafafa"        # finder template
-  link: "#0066cc"        # future, romi, human templates
-```
-
-### menus
-
-three menu areas: `header_menu`, `footer_menu`, `sidebar_menu`
-
-```yaml
-header_menu:
-  - title: home
-    url: /
-  - title: blog
-    url: /blog
-  - title: github
-    url: https://github.com/user
-```
-
-### images
-
-```yaml
-image:
-  shadow: "0 4px 12px rgba(0,0,0,0.15)"
-  radius: "8px"
-  border: "1px solid #eee"
-```
-
-### spacing and behavior
-
-```yaml
-spacing:
-  content_max_width: "800px"
-header:
-  sticky: true
-content:
-  headingAnchors: true
-show_file_list: false
-typography:
-  baseFontSize: 14        # human template, range 10-16
-```
+- `title`: text, default empty
+- `description`: text, default empty
+- `language`: text, default empty
+- `menu.header`, `menu.footer`, `menu.sidebar`: lists of `{ "label", "url" }`, empty by default
+- `logo.text` (root only): text, default empty
+- `logo.font` (root only): text, default empty
+- `logo.size` (root only): text, default empty
+- `logo.color` (root only): text, default empty
+- `logo.width` (root only): text, default empty
+- `logo.height` (root only): text, default empty
+- `list.view`: list, cards or grid, default "list"
+- `list.visible`: true or false, default true
+- `list.dates`: created, modified or none, default "created"
+- `list.sizes`: true or false, default true
+- `list.icons`: true or false, default true
+- `list.sort`: name, date or size, default "date"
+- `list.order`: asc or desc, default "desc"
+- `page.metadata`: true or false, default true
+- `page.export`: true or false, default false
+- `page.anchors`: true or false, default true
+- `page.highlighting`: true or false, default true
+- `header.sticky` (root only): true or false, default false
+- `footer.links` (root only): true or false, default true
+- `ai.train` (root only): true or false, default true
+- `ai.answer` (root only): true or false, default true
 
 ref: docs.tinydot.com/customization
+
+## site look
+
+a site's template is picked when the site is made, on tinydot.com or in the app, and changed there; it is not in the folder. each template takes its own colors and sizes as root `index.md` frontmatter, nested (`color:` then `background: "#ffffff"`).
+
+a new site picks `wander` (Wander) or `finder` (Apple Finder); `future`, `romi`, `human`, `branduria`, `plain` still serve the sites already on them.
+
+### wander
+
+- `color.background`: background color (color), default `#ffffff`
+- `color.text`: text color (color), default `#000000`
+- `color.muted`: muted text (color), default `#374151`
+- `color.border`: border color (color), default `#dddddd`
+- `color.link`: link color (color), default `#103dff`
+- `color.accent`: accent color (color), default `#103dff`
+- `color.list`: list background (color), default `#f5f5f5`
+- `layout.max_width`: content width (text), default `640px`
+- `image.shadow`: image shadow (text), default `none`
+- `image.radius`: image radius (text), default `4px`
+- `theme.default`: default theme (select, one of light, dark), default `light`
+- `theme.toggle`: theme toggle (boolean), default `true`
+
+### finder
+
+- `color.background`: background color (color), default `#ffffff`
+- `color.text`: text color (color), default `#000000`
+- `color.border`: border color (color), default `#d1d1d1`
+- `color.hover`: hover background (color), default `#f6f6f6`
+- `color.list`: list background (color), default `#fafafa`
+- `color.muted`: muted text (color), default `#666666`
+- `image.shadow`: image shadow (text), default `0 2px 8px rgba(0, 0, 0, 0.1)`
+- `image.radius`: image radius (text), default `6px`
+- `image.border`: image border (text), default `none`
+- `header.sticky`: sticky header (boolean), default `false`
+- `content.heading_anchors`: heading anchors (boolean), default `false`
+- `content.syntax_highlighting`: syntax highlighting (boolean), default `true`
+- `theme.default`: default theme (select, one of light, dark), default `light`
+- `theme.toggle`: theme toggle (boolean), default `true`
+
+### future
+
+- `color.background`: background color (color), default `#ffffff`
+- `color.text`: text color (color), default `#000000`
+- `color.link`: link color (color), default `#0000EE`
+- `color.link_visited`: visited link color (color), default `#551A8B`
+- `color.border`: border color (color), default `#000000`
+- `color.muted`: muted text (color), default `#666666`
+- `image.shadow`: image shadow (text), default `0 2px 8px rgba(0, 0, 0, 0.1)`
+- `image.radius`: image radius (text), default `6px`
+- `image.border`: image border (text), default `none`
+- `content.syntax_highlighting`: syntax highlighting (boolean), default `true`
+- `theme.default`: default theme (select, one of light, dark), default `light`
+- `theme.toggle`: theme toggle (boolean), default `true`
+
+### romi
+
+- `color.background`: background color (color), default `#ffffff`
+- `color.text`: text color (color), default `rgba(4, 4, 4, 0.85)`
+- `color.link`: link color (color), default `rgba(255, 0, 0, 0.85)`
+- `color.link_visited`: visited link color (color), default `rgba(180, 0, 0, 0.85)`
+- `color.border`: border color (color), default `rgba(4, 4, 4, 0.15)`
+- `color.muted`: muted text (color), default `rgba(4, 4, 4, 0.5)`
+- `image.shadow`: image shadow (text), default `0 2px 8px rgba(0, 0, 0, 0.1)`
+- `image.radius`: image radius (text), default `6px`
+- `image.border`: image border (text), default `none`
+- `content.syntax_highlighting`: syntax highlighting (boolean), default `true`
+- `theme.default`: default theme (select, one of light, dark), default `light`
+- `theme.toggle`: theme toggle (boolean), default `true`
+
+### human
+
+- `color.background`: background color (color), default `#ffffff`
+- `color.text`: text color (color), default `#000000`
+- `color.link`: link color (color), default `#0084ff`
+- `color.border`: border color (color), default `#000000`
+- `image.shadow`: image shadow (text), default `0 2px 8px rgba(0, 0, 0, 0.1)`
+- `image.radius`: image radius (text), default `6px`
+- `image.border`: image border (text), default `none`
+- `content.syntax_highlighting`: syntax highlighting (boolean), default `true`
+- `theme.default`: default theme (select, one of light, dark), default `light`
+- `theme.toggle`: theme toggle (boolean), default `true`
+
+### branduria
+
+- `color.background`: background (color), default `#ffffff`
+- `color.text`: text color (color), default `#3d3d3d`
+- `color.link`: link color (color), default `#3d3d3d`
+- `color.muted`: muted text (color), default `#999999`
+- `color.border`: border color (color), default `#000000`
+- `image.shadow`: image shadow (text), default `none`
+- `image.radius`: image radius (text), default `0`
+- `image.border`: image border (text), default `none`
+- `content.syntax_highlighting`: syntax highlighting (boolean), default `true`
+- `theme.default`: default theme (select, one of light, dark), default `light`
+- `theme.toggle`: theme toggle (boolean), default `true`
+
+### plain
+
+- `color.background`: background color (color), default `#ffffff`
+- `color.text`: text color (color), default `#222222`
+- `color.link`: link color (color), default `#0000EE`
+- `color.border`: border color (color), default `#dddddd`
+- `color.muted`: muted text (color), default `#666666`
+- `image.shadow`: image shadow (text), default `none`
+- `image.radius`: image radius (text), default `0`
+- `image.border`: image border (text), default `none`
+- `content.syntax_highlighting`: syntax highlighting (boolean), default `true`
 
 ## sites
 
@@ -196,7 +275,7 @@ ref: docs.tinydot.com/backlinks
 
 when editing tinydot content:
 
-1. find the site folder in `~/Library/CloudStorage/Tinydot/` or wherever the user points you
+1. find the site folder in `~/Library/CloudStorage/tinydot/` or wherever the user points you
 2. `.md` files are pages - edit them directly
 3. always preserve existing frontmatter when editing
 4. use wikilinks `[[page-name]]` to link between pages (prefer over regular markdown links for internal linking)

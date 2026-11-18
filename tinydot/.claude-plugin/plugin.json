@@ -1,11 +1,17 @@
 {
   "name": "tinydot",
-  "version": "1.0.0",
-  "description": "Draft, edit, review, and publish content on tinydot sites through natural conversation",
+  "version": "2.0.0",
+  "description": "Write, edit, review and customize tinydot sites from the tinydot folder on your Mac",
   "author": {
-    "name": "tinydot",
-    "url": "https://tinydot.com"
+    "name": "system operator",
+    "url": "https://systemoperator.com"
   },
-  "homepage": "https://docs.tinydot.com",
-  "license": "MIT"
+  "homepage": "https://tinydot.com",
+  "license": "MIT",
+  "keywords": [
+    "website",
+    "markdown",
+    "publishing",
+    "tinydot"
+  ]
 }
