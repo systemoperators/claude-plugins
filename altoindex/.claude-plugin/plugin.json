@@ -1,13 +1,21 @@
 {
   "name": "altoindex",
-  "version": "1.0.0",
-  "description": "Work with your Apple Notes, Apple Reminders, Apple Calendar, iMessage, Safari, Apple Contacts, Voice Memos, and Granola data synced by alto.index",
+  "version": "2.0.0",
+  "description": "Read what Alto Index exports from your Mac: Apple Notes, Reminders, Calendar, Messages, Mail, Contacts, Safari, Voice Memos and more, as Markdown files on your Mac.",
   "author": {
-    "name": "AltoIndex",
-    "email": "hi@altoindex.com",
-    "url": "https://altoindex.com"
+    "name": "system operator",
+    "url": "https://systemoperator.com"
   },
   "homepage": "https://altoindex.com",
   "license": "MIT",
-  "keywords": ["apple", "notes", "reminders", "calendar", "messages", "macos", "personal-data", "alto-index"]
+  "keywords": [
+    "apple",
+    "notes",
+    "reminders",
+    "calendar",
+    "messages",
+    "macos",
+    "markdown",
+    "alto-index"
+  ]
 }
