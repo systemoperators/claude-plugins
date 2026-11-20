@@ -2,7 +2,7 @@
 name: draft
 description: Create a new page in a tinydot site
 argument-hint: [topic]
-allowed-tools: Read, Write, Glob, Grep
+allowed-tools: Read, Glob, Grep
 ---
 
 # draft a new tinydot page

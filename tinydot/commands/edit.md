@@ -2,7 +2,7 @@
 name: edit
 description: Edit an existing page in a tinydot site
 argument-hint: [page name or path]
-allowed-tools: Read, Write, Edit, Glob, Grep
+allowed-tools: Read, Glob, Grep
 ---
 
 # edit a tinydot page

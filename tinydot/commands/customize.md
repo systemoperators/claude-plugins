@@ -1,8 +1,8 @@
 ---
 name: customize
-description: Change a site's settings and look: settings.json for menus, lists and pages, root index.md frontmatter for its template's colors
+description: "Change a site's settings and look: settings.json for menus, lists and pages, root index.md frontmatter for its template's colors"
 argument-hint: [site name]
-allowed-tools: Read, Write, Edit, Glob
+allowed-tools: Read, Glob
 ---
 
 # customize a tinydot site

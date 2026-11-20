@@ -2,7 +2,7 @@
 name: tinydot-content
 description: Use when working with tinydot sites, pages, markdown content, wikilinks, embeds, frontmatter, or site customization. Activates for any tinydot content editing or publishing task.
 user-invocable: false
-allowed-tools: Read, Write, Edit, Glob, Grep
+allowed-tools: Read, Glob, Grep
 ---
 
 # tinydot content editing

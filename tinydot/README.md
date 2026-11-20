@@ -1,42 +1,35 @@
-# tinydot content plugin
+# Tinydot
 
-Claude plugin for drafting, editing, reviewing, and publishing content on tinydot sites.
+Write, edit, review and customize your tinydot sites with Claude. Every folder in the tinydot folder on your Mac (~/Library/CloudStorage/tinydot, from the tinydot app) is a site and every markdown file a page; a saved change publishes at once.
 
-## what it does
+## What the plugin holds
 
-- teaches Claude how tinydot works: markdown extensions, wikilinks, content blocks, embeds, frontmatter, customization
-- works through the local filesystem (tinydot macOS app FileProvider) - no MCP needed
-- changes publish instantly when files are saved
+- one skill, tinydot-content: how tinydot reads markdown, wikilinks, embeds, frontmatter, settings.json and each template's look
+- commands that work on the files in the tinydot folder, with no server and no sign-in: nothing leaves your Mac except what Claude itself is sent and the pages tinydot publishes
+- Claude reads the folder on its own; it asks you before it writes or changes a file, and before /tinydot:import fetches a page
 
-## install
+## Install
 
-```
-claude plugin install tinydot
-```
-
-Or during development:
+In Claude Code:
 
 ```
-claude --plugin-dir ./claude-plugin
+/plugin install tinydot --marketplace systemoperators/claude-plugins
 ```
 
-## commands
+## Commands
 
-- `/tinydot:draft [topic]` - create a new page in a tinydot site
-- `/tinydot:edit [page]` - edit an existing page
-- `/tinydot:review [site]` - review site content for broken links, missing frontmatter, tag issues
-- `/tinydot:customize [site]` - modify site colors, menus, template, spacing through frontmatter
+- `/tinydot:sites`: your sites with their addresses and page counts
+- `/tinydot:draft [topic]`: a new page in a site
+- `/tinydot:edit [page]`: change an existing page
+- `/tinydot:review [site]`: broken links, missing frontmatter, tag issues
+- `/tinydot:customize [site]`: menus, lists and pages in settings.json, the template's colors in the root index.md
+- `/tinydot:import [url]`: bring an existing website into a tinydot site
 
-## auto-invoked skill
+## Documentation
 
-The `tinydot-content` skill activates automatically when you ask about tinydot content, markdown, wikilinks, embeds, or site customization. It provides Claude with complete knowledge of tinydot's features and conventions.
-
-## documentation
-
-- docs.tinydot.com/getting-started
-- docs.tinydot.com/markdown
-- docs.tinydot.com/wikilinks
-- docs.tinydot.com/customization
+- https://docs.tinydot.com/getting-started
+- https://docs.tinydot.com/markdown
+- https://docs.tinydot.com/customization
 
 Privacy: https://tinydot.com/privacy
 

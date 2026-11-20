@@ -1,7 +1,7 @@
 ---
 name: sites
 description: List tinydot sites with their URLs and page counts
-allowed-tools: Read, Glob, Bash
+allowed-tools: Read, Glob, LS
 ---
 
 # list tinydot sites

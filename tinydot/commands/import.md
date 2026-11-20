@@ -1,6 +1,6 @@
 ---
 description: Import an external website into a tinydot site
-allowed-tools: Read, Write, Glob, Grep, WebFetch
+allowed-tools: Read, Glob, Grep
 argument-hint: "[url]"
 ---
 
