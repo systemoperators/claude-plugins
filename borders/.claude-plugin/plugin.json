@@ -1,0 +1,19 @@
+{
+  "name": "borders",
+  "displayName": "Borders",
+  "version": "1.0.0",
+  "description": "Border and airport waits now, the usual week, when to leave and which crossing to take.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://borders.me",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://borders.me/privacy",
+  "keywords": [
+    "borders",
+    "travel",
+    "mcp"
+  ]
+}

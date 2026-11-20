@@ -73,6 +73,11 @@
       "name": "supersurf",
       "source": "./supersurf",
       "description": "Where and when to surf: the best spots near a place for the time you ask, a spot's forecast and tides, and the surf schools near it, each number with its source."
+    },
+    {
+      "name": "borders",
+      "source": "./borders",
+      "description": "Border and airport waits now, the usual week, when to join the line to be through by a time, and which crossing to take from a town, each number with its source and time."
     }
   ]
 }
