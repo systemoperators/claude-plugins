@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tinydot": {
+      "type": "http",
+      "url": "https://mcp.tinydot.com/mcp"
+    }
+  }
+}
