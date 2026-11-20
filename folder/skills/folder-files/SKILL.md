@@ -29,7 +29,7 @@ Deleting and moving files are not available. Say so and point to Finder, the Fil
 
 ## Available tools
 
-Generated from ops-registry.json: 16 tools. Only v1 operations are available.
+Generated from ops-registry.json: 17 tools. Only v1 operations are available.
 
 | Read tool | Returns |
 |---|---|
@@ -50,5 +50,6 @@ Generated from ops-registry.json: 16 tools. Only v1 operations are available.
 | create_share_link | share | Make a share link | Ask for approval first |
 | revoke_share | unshare | Stop a share link | Ask for approval first |
 | sell_file | sell | Sell a file | Ask for approval first |
+| sell_folder | sell_folder | Sell a folder | Ask for approval first |
 | update_product | update | Change a product | Ask for approval first |
 | unpublish_product | unpublish | Stop selling a product | Ask for approval first |
