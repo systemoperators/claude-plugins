@@ -8,6 +8,11 @@
     "url": "https://systemoperator.com"
   },
   "homepage": "https://tinydot.com",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "documentationUrl": "https://docs.tinydot.com/getting-started",
+  "supportUrl": "https://tinydot.com/contact",
+  "privacyPolicyUrl": "https://tinydot.com/privacy",
+  "termsOfServiceUrl": "https://tinydot.com/terms",
   "license": "MIT",
   "keywords": [
     "website",
