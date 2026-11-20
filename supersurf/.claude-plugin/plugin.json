@@ -1,0 +1,19 @@
+{
+  "name": "supersurf",
+  "displayName": "Supersurf",
+  "version": "1.0.0",
+  "description": "Where and when to surf: forecasts, tides, spots and surf schools.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://supersurf.app",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://supersurf.app/privacy",
+  "keywords": [
+    "supersurf",
+    "lifestyle",
+    "mcp"
+  ]
+}

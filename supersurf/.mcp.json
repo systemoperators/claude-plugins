@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "supersurf": {
+      "type": "http",
+      "url": "https://mcp.supersurf.app/mcp"
+    }
+  }
+}

@@ -68,6 +68,11 @@
       "name": "superpass",
       "source": "./superpass",
       "description": "Where the chip is in a passport or ID card of 120 countries, and how to hold an iPhone to read it, from Superpass's research with its sources."
+    },
+    {
+      "name": "supersurf",
+      "source": "./supersurf",
+      "description": "Where and when to surf: the best spots near a place for the time you ask, a spot's forecast and tides, and the surf schools near it, each number with its source."
     }
   ]
 }
