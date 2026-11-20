@@ -63,6 +63,11 @@
       "name": "tinysend",
       "source": "./tinysend",
       "description": "Write, send and follow your tinysend newsletters."
+    },
+    {
+      "name": "superpass",
+      "source": "./superpass",
+      "description": "Where the chip is in a passport or ID card of 120 countries, and how to hold an iPhone to read it, from Superpass's research with its sources."
     }
   ]
 }

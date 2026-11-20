@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "superpass": {
+      "type": "http",
+      "url": "https://mcp.superpass.me/mcp"
+    }
+  }
+}

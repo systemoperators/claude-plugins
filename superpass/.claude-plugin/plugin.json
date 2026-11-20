@@ -1,0 +1,19 @@
+{
+  "name": "superpass",
+  "displayName": "Superpass",
+  "version": "1.0.0",
+  "description": "Where the chip is in your passport or ID card, and how to read it with your iPhone.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://superpass.me",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://superpass.me/privacy",
+  "keywords": [
+    "superpass",
+    "productivity",
+    "mcp"
+  ]
+}
