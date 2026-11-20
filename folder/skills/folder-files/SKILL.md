@@ -21,7 +21,7 @@ Every change is a new version. list_versions lists them; restore_version with a 
 
 ## Share
 
-create_share_link makes a link anyone who has it can open. Its first call says who will be able to open the file and answers a confirm code: ask the person, and only after they say yes call it again with that code. revoke_share stops every link to a file; ask before it too.
+create_share_link makes a link to a file, or to a folder and everything in it. Pick who can open it from the person's words: anyone who has the link (the default), anyone with the link and a password they give you, or anyone at all; a name and an end date when they say one. Its first call says who will be able to open it and answers a confirm code: ask the person, and only after they say yes call it again with the same choices and that code. Never make up a password; tell them to send it separately. revoke_share stops every link to a file; ask before it too.
 
 ## Not here
 
