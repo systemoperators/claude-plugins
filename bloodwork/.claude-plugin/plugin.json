@@ -1,8 +1,8 @@
 {
-  "name": "bloodwork-reference",
-  "displayName": "Bloodwork Reference",
-  "version": "0.1.0",
-  "description": "Blood test reference: what a marker measures, the ranges named labs publish, the tests in a panel and the tests followed for a condition.",
+  "name": "bloodwork",
+  "displayName": "Bloodwork",
+  "version": "1.0.0",
+  "description": "Your blood test results in Claude: every value against your lab's own range, how each one moved over time, and the reference for any marker.",
   "author": {
     "name": "system operator",
     "url": "https://systemoperator.com"
@@ -12,8 +12,9 @@
   "license": "MIT",
   "privacyPolicyUrl": "https://bloodwork.md/privacy",
   "keywords": [
-    "bloodwork-reference",
-    "education",
+    "bloodwork",
+    "health",
+    "blood tests",
     "mcp"
   ]
 }

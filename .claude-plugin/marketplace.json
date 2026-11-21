@@ -52,7 +52,7 @@
     {
       "name": "bloodwork",
       "source": "./bloodwork",
-      "description": "Blood test reference: what a marker measures, the ranges named labs publish, the tests in a panel and the tests followed for a condition."
+      "description": "Your blood test results in Claude: every value against your lab's own range, how each one moved over time, and the reference for any marker."
     },
     {
       "name": "bigmission",

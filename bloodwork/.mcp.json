@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "bloodwork-reference": {
+    "bloodwork": {
       "type": "http",
       "url": "https://mcp.bloodwork.md/mcp"
     }

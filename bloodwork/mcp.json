@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bloodwork-reference": {
+      "type": "http",
+      "url": "https://mcp.bloodwork.md/mcp"
+    }
+  }
+}
