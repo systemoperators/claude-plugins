@@ -15,6 +15,8 @@ Every tool takes a folder name from list_folders and a path inside it, like note
 
 create_file makes a new text file and refuses when something is already at that path; say so and ask, never pick another name silently. save_file keeps a file from the chat (file: download_url, file_id, mime_type, file_name) or from an https file_url; never invent either. Up to 10 MB.
 
+create_upload_link puts a file from the person's computer into their folder on Folder: a PDF, a photo, a zip or a build, up to 100 MB. Give it the path with the file's name; it answers a curl command, good for an hour. Where you can run commands, as in Claude Code, run it with the file's real path and say where the file landed from its answer. In a chat, give the person the page it names, where they drop the file.
+
 For edit_file, read the file first and pass old_text that appears exactly once, with as little around it as makes it unique. Change only what was asked. If the file changed since it was read, read it again and reassess.
 
 Every change is a new version. list_versions lists them; restore_version with a version puts it back, and the version it replaces stays too.
@@ -29,7 +31,7 @@ Deleting and moving files are not available. Say so and point to Finder, the Fil
 
 ## Available tools
 
-Generated from ops-registry.json: 17 tools. Only v1 operations are available.
+Generated from ops-registry.json: 18 tools. Only v1 operations are available.
 
 | Read tool | Returns |
 |---|---|
@@ -45,6 +47,7 @@ Generated from ops-registry.json: 17 tools. Only v1 operations are available.
 |---|---|---|---|
 | create_file | create | Make a text file | No extra approval |
 | save_file | save | Save a file from the chat | No extra approval |
+| create_upload_link | upload | Make an upload address | No extra approval |
 | edit_file | edit | Edit a text file | No extra approval |
 | restore_version | restore | Put a version back | No extra approval |
 | create_share_link | share | Make a share link | Ask for approval first |
