@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "convertfile": {
+      "type": "http",
+      "url": "https://mcp.convertfile.io/mcp"
+    }
+  }
+}

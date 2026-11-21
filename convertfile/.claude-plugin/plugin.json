@@ -1,0 +1,19 @@
+{
+  "name": "convertfile",
+  "displayName": "convertfile",
+  "version": "1.0.0",
+  "description": "What a file format is and how a conversion goes, from the convertfile app.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://convertfile.io",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://convertfile.io/privacy",
+  "keywords": [
+    "convertfile",
+    "productivity",
+    "mcp"
+  ]
+}

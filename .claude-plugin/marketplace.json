@@ -75,6 +75,11 @@
       "description": "Where and when to surf: the best spots near a place for the time you ask, a spot's forecast and tides, and the surf schools near it, each number with its source."
     },
     {
+      "name": "convertfile",
+      "source": "./convertfile",
+      "description": "What a file format is, whether convertfile opens and makes it, and how a conversion goes: what it keeps and loses, the settings, the steps in the app and whether it is free."
+    },
+    {
       "name": "borders",
       "source": "./borders",
       "description": "Border and airport waits now, the usual week, when to join the line to be through by a time, and which crossing to take from a town, each number with its source and time."
