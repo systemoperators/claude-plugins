@@ -25,7 +25,7 @@ Report success only after a tool succeeds, with the link it returns.
 
 ## Available tools
 
-Generated from ops-registry.json: 12 tools. Only v1 operations are available.
+Generated from ops-registry.json: 13 tools. Only v1 operations are available.
 
 | Read tool | Returns |
 |---|---|
@@ -44,3 +44,4 @@ Generated from ops-registry.json: 12 tools. Only v1 operations are available.
 | delete_draft | delete | Delete a draft | Ask for approval first |
 | add_subscriber | add | Add a subscriber | Ask for approval first |
 | remove_subscriber | remove | Remove a subscriber | Ask for approval first |
+| import_subscribers | import | Import subscribers | Ask for approval first |
