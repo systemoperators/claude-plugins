@@ -31,7 +31,7 @@ Report success only after the tool succeeds, and surface errors as they come.
 
 ## Available tools
 
-Generated from ops-registry.json: 16 tools. Only v1 operations are available.
+Generated from ops-registry.json: 17 tools. Only v1 operations are available.
 
 | Read tool | Returns |
 |---|---|
@@ -42,7 +42,7 @@ Generated from ops-registry.json: 16 tools. Only v1 operations are available.
 | run_what_if | the results that move when the inputs take those values, before and after, computed on a copy; nothing is written |
 | list_changes | the cells typed on the branch, before and after, and the results that moved because of them, against main unless against names another branch |
 | search_datasets | the public datasets on Deepcalc whose name, title or description holds those words (all of them when none do): each one's name (owner/name), what it holds, its source and license, its address at deepcalc.com and when it changed |
-| compare_entities | each one's numbers by year in one public dataset (or the person's own), side by side as a table, with the dataset's address, source and license |
+| compare_entities | each one's numbers by year in one public dataset (or the person's own), side by side as a table, with the dataset's address, source and license, and the compare page that draws them |
 | get_entity | one row of Deepcalc's public lists (core/countries, core/currencies, core/us-states): its codes and names, its Wikidata id, its latest number in each public dataset with the year and a formula that pulls it into any workbook, the public workbooks that use it, and its page at deepcalc.com |
 
 | Write tool | Action | Operation | Approval |
@@ -54,3 +54,4 @@ Generated from ops-registry.json: 16 tools. Only v1 operations are available.
 | delete_branch | discard | Delete a branch | Ask for approval first |
 | publish_workbook | publish | Publish a workbook | Ask for approval first |
 | unpublish_workbook | unpublish | Make a workbook private | Ask for approval first |
+| publish_analysis | publish | Publish an analysis | Ask for approval first |
