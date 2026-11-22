@@ -2,7 +2,7 @@
   "name": "deepcalc",
   "displayName": "Deepcalc",
   "version": "0.1.0",
-  "description": "Read, check and change spreadsheets in deepcalc; every change waits on a branch for the person.",
+  "description": "Read, check and change spreadsheets in Deepcalc; every change waits on a branch for the person.",
   "author": {
     "name": "system operator",
     "url": "https://systemoperator.com"

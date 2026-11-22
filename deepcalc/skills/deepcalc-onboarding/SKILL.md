@@ -1,9 +1,9 @@
 ---
 name: deepcalc-onboarding
-description: Connect to deepcalc on first use, find the person's workbooks and explain how changes wait on a branch.
+description: Connect to Deepcalc on first use, find the person's workbooks and explain how changes wait on a branch.
 ---
 
-# Start using deepcalc
+# Start using Deepcalc
 
 On first use, call list_workbooks to see the workbooks this connection can open. Use the owner/name it returns (or the id) in every later call; never invent one.
 

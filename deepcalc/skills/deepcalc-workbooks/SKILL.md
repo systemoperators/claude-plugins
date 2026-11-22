@@ -1,11 +1,11 @@
 ---
 name: deepcalc-workbooks
-description: Read, check and change deepcalc workbooks, try numbers without writing, review branches and publish when asked.
+description: Read, check and change Deepcalc workbooks, try numbers without writing, review branches and publish when asked.
 ---
 
-# Work with deepcalc workbooks
+# Work with Deepcalc workbooks
 
-Use deepcalc when the person asks about their workbooks or asks to make, check, change or publish one. Plain arithmetic and writing that do not involve a workbook do not need deepcalc tools.
+Use Deepcalc when the person asks about their workbooks or asks to make, check, change or publish one. Plain arithmetic and writing that do not involve a workbook do not need Deepcalc tools.
 
 ## Read before answering
 
@@ -31,7 +31,7 @@ Report success only after the tool succeeds, and surface errors as they come.
 
 ## Available tools
 
-Generated from ops-registry.json: 13 tools. Only v1 operations are available.
+Generated from ops-registry.json: 16 tools. Only v1 operations are available.
 
 | Read tool | Returns |
 |---|---|
@@ -41,6 +41,9 @@ Generated from ops-registry.json: 13 tools. Only v1 operations are available.
 | check_workbook | the Check tab's two lists for one worksheet. To fix: a total that leaves out a row, a formula that breaks its column's pattern, a typed number among formulas. Does this look right?: what to look at. Each with its cells, why, and the fix when there is one |
 | run_what_if | the results that move when the inputs take those values, before and after, computed on a copy; nothing is written |
 | list_changes | the cells typed on the branch, before and after, and the results that moved because of them, against main unless against names another branch |
+| search_datasets | the public datasets on Deepcalc whose name, title or description holds those words (all of them when none do): each one's name (owner/name), what it holds, its source and license, its address at deepcalc.com and when it changed |
+| compare_entities | each one's numbers by year in one public dataset (or the person's own), side by side as a table, with the dataset's address, source and license |
+| get_entity | one row of Deepcalc's public lists (core/countries, core/currencies, core/us-states): its codes and names, its Wikidata id, its latest number in each public dataset with the year and a formula that pulls it into any workbook, the public workbooks that use it, and its page at deepcalc.com |
 
 | Write tool | Action | Operation | Approval |
 |---|---|---|---|
