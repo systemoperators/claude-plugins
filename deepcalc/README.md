@@ -7,6 +7,7 @@ Ask about your spreadsheets in Deepcalc and get answers from the actual cells: w
 - one MCP server, Deepcalc, at https://mcp.deepcalc.com/mcp over streamable HTTP. Connecting opens Deepcalc's own sign-in page (OAuth 2.1); the plugin carries no key, token or password
 - skills, which tell Claude how to use its tools:
   - deepcalc-onboarding: Connect to Deepcalc on first use, find the person's workbooks and explain how changes wait on a branch.
+  - deepcalc-public-data: Answer from Deepcalc's public datasets with no sign-in: World Bank indicators, countries, currencies, US states, US sales tax, the US federal income tax brackets and EU VAT rates, each number with its source.
   - deepcalc-workbooks: Read, check and change Deepcalc workbooks, try numbers without writing, review branches and publish when asked.
 
 ## Install
