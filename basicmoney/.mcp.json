@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "basicmoney": {
+      "type": "http",
+      "url": "https://mcp.basicmoney.app/mcp"
+    }
+  }
+}

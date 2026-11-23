@@ -83,6 +83,11 @@
       "name": "borders",
       "source": "./borders",
       "description": "Border and airport waits now, the usual week, when to join the line to be through by a time, and which crossing to take from a town, each number with its source and time."
+    },
+    {
+      "name": "basicmoney",
+      "source": "./basicmoney",
+      "description": "Bank, card and brokerage statements to spreadsheets, each one checked to add up."
     }
   ]
 }

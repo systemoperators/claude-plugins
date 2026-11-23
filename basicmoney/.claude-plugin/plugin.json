@@ -1,0 +1,19 @@
+{
+  "name": "basicmoney",
+  "displayName": "Basic Money",
+  "version": "1.0.0",
+  "description": "Bank, card and brokerage statements to spreadsheets, each one checked to add up.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://basicmoney.app",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://basicmoney.app/privacy",
+  "keywords": [
+    "basicmoney",
+    "finance",
+    "mcp"
+  ]
+}
