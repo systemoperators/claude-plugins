@@ -13,7 +13,6 @@ Exporter for Mac also exports your Apple Notes, Messages, Mail, Calendar, Remind
   - export-apple-notes: Export the user's Apple Notes to Markdown (or HTML) files on a Mac with the Exporter Mac app and its exporter command line. Use when asked to export Apple Notes, convert notes to markdown or .md files, get notes out of Apple Notes, or save notes as HTML. macOS only.
   - export-messages: Export the user's iMessage conversations from the Messages app to Markdown, one file per conversation with attachments, using the Exporter Mac app and its exporter command line. Use when asked to export, save, archive or back up iMessages, text conversations or Messages chat history as markdown or files. macOS only.
   - exporter-linear-notion: Search and read the person's Linear and Notion through Exporter's tools, see what changed and what a page said before. Use when asked about Linear issues, projects or documents, Notion pages or databases, what changed today or this week, or an earlier version of a spec.
-  - notes-as-claude-context: Search and read the user's Apple Notes, contacts and iMessage conversations as context through the local MCP server inside the Exporter Mac app. Use when asked to search my notes, answer from my Apple Notes, find what I wrote about something, look up a conversation or contact, or connect Apple Notes to Claude Code, Claude Desktop, Cursor or VS Code. macOS only.
 
 ## Install
 
