@@ -6,7 +6,7 @@ Convertfile turns a file into the version you need: a photo into a JPG or a PDF,
 
 - one MCP server, Convertfile, at https://mcp.convertfile.io/mcp over streamable HTTP. Connecting opens Convertfile's own sign-in page (OAuth 2.1); the plugin carries no key, token or password
 - skills, which tell Claude how to use its tools:
-  - Convertfile: Answer what a file format is and how a conversion goes in the Convertfile app: what it keeps and loses, the settings, the steps and whether it is free.
+  - convertfile: Answer what a file format is and how a conversion goes in the Convertfile app: what it keeps and loses, the settings, the steps and whether it is free.
 
 ## Install
 

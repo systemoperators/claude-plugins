@@ -1,5 +1,5 @@
 ---
-name: Convertfile
+name: convertfile
 description: Answer what a file format is and how a conversion goes in the Convertfile app: what it keeps and loses, the settings, the steps and whether it is free.
 ---
 
