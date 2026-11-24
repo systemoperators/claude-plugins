@@ -1,8 +1,8 @@
 {
   "name": "convertfile",
-  "displayName": "convertfile",
-  "version": "1.0.0",
-  "description": "What a file format is and how a conversion goes, from the convertfile app.",
+  "displayName": "Convertfile",
+  "version": "1.1.0",
+  "description": "What a file format is and how a conversion goes, from the Convertfile app.",
   "author": {
     "name": "system operator",
     "url": "https://systemoperator.com"
