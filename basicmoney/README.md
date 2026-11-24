@@ -1,10 +1,10 @@
 # Basic Money
 
-Basic Money reads your bank, credit card and brokerage statements from their PDFs. It lists every transaction and checks that each statement's opening balance and transactions come to its closing balance, or says by how much it is off. Save the result as Excel or CSV. It reads statements from banks in the US, the UK, India, South Africa and more, and a statement locked with a password opens on its upload page. No account is needed, and what it reads is deleted after 24 hours.
+Basic Money converts bank, credit card and brokerage statement PDFs to Excel or CSV. It checks whether the transactions and opening balance come to the closing balance and shows any difference. The upload page also accepts PDFs locked with a password. You can convert statements and look up bank guides without an account. Conversion results expire after 24 hours. Sign in to open your Basic Money library. Statements you convert from a PDF attached in chat while signed in are saved to your library.
 
 ## What the plugin holds
 
-- one MCP server, Basic Money, at https://mcp.basicmoney.app/mcp over streamable HTTP. Connecting opens Basic Money's own sign-in page (OAuth 2.1); the plugin carries no key, token or password
+- one MCP server, Basic Money, at https://mcp.basicmoney.app/mcp over streamable HTTP. Public tools work without an account. Tools that access your account open Basic Money's sign-in page (OAuth 2.1) when needed. The plugin carries no key, token or password
 - skills, which tell Claude how to use its tools:
   - basicmoney: Turn bank, credit card and brokerage statement PDFs into transactions as Excel or CSV, checked to add up, and say how to download statements from a bank.
 

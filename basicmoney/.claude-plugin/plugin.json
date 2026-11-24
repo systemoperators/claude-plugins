@@ -1,7 +1,7 @@
 {
   "name": "basicmoney",
   "displayName": "Basic Money",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bank, card and brokerage statements to spreadsheets, each one checked to add up.",
   "author": {
     "name": "system operator",
