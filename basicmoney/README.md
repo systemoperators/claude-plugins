@@ -4,7 +4,7 @@ Basic Money converts bank, credit card and brokerage statement PDFs to Excel or 
 
 ## What the plugin holds
 
-- one MCP server, Basic Money, at https://mcp.basicmoney.app/mcp over streamable HTTP. Public tools work without an account. Tools that access your account open Basic Money's sign-in page (OAuth 2.1) when needed. The plugin carries no key, token or password
+- one MCP server, Basic Money, at https://mcp.basicmoney.app/mcp over streamable HTTP. Connecting opens Basic Money's own sign-in page (OAuth 2.1); the plugin carries no key, token or password
 - skills, which tell Claude how to use its tools:
   - basicmoney: Turn bank, credit card and brokerage statement PDFs into transactions as Excel or CSV, checked to add up, and say how to download statements from a bank.
 
