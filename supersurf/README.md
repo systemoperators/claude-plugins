@@ -4,7 +4,7 @@ Supersurf tells you where and when to surf, at 2,435 surf spots in 46 countries.
 
 ## What the plugin holds
 
-- one MCP server, Supersurf, at https://mcp.supersurf.app/mcp over streamable HTTP. It needs no account and no sign-in; the plugin carries no key, token or password
+- one MCP server, Supersurf, at https://mcp.supersurf.app/mcp over streamable HTTP. Connecting opens Supersurf's own sign-in page (OAuth 2.1); the plugin carries no key, token or password
 - skills, which tell Claude how to use its tools:
   - supersurf: Answer where and when to surf, a spot's forecast and tides, and the surf schools near it, from Supersurf's forecasts.
 
