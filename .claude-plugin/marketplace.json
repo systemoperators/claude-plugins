@@ -47,7 +47,7 @@
     {
       "name": "outliner",
       "source": "./outliner",
-      "description": "Your Apple notes, reminders, calendar, contacts, messages and mail, searchable by Claude Code on your Mac through Outliner: find, read, and save notes, reminders and events through the Apple apps."
+      "description": "Your Apple Notes, Reminders, Calendar, Contacts, Messages and Mail in Claude, through Outliner Pro on your Mac: find, read, and save notes, reminders and events through the Apple apps, from Claude Code or anywhere through the Outliner connector."
     },
     {
       "name": "bloodwork",

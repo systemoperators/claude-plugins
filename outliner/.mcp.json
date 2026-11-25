@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "outliner": {
+      "type": "http",
+      "url": "https://mcp.outliner.app/mcp"
+    }
+  }
+}

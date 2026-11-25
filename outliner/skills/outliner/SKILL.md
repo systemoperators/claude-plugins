@@ -1,12 +1,11 @@
 ---
 name: outliner
 description: Answer from the person's own Apple notes, reminders, calendar, contacts, messages and mail with Outliner on their Mac, and save notes, reminders and events through the Apple apps. Use when they ask what they wrote, planned, were sent or have due, who is waiting on their reply, or ask to save a note, a reminder or an event.
-allowed-tools: Bash(outliner search:*), Bash(outliner fetch:*), Bash(outliner sources:*), Bash(outliner help:*), Bash(outliner commands:*), Bash(outliner note list:*), Bash(outliner folder list:*), Bash(outliner tag list:*), Bash(outliner reminder list:*), Bash(outliner event list:*), Bash(outliner message list:*), Bash(outliner mail list:*), Bash(outliner file list:*)
 ---
 
 Outliner keeps an index of the person's Apple data on their Mac. The `outliner` command, which Outliner Pro installs, reads that index and writes back through the Apple apps.
 
-Run it as `outliner <command> --json` in the shell. `outliner help <command>` shows a command's flags with examples, and `outliner commands --json` lists every command. Where Outliner's tools are connected instead of a shell, each command's help names its tool (`search`, `fetch`, `list_reminders`, `create_note` and the rest), with the same arguments.
+Run it as `outliner <command> --json` in the shell. `outliner help <command>` shows a command's flags with examples, and `outliner commands --json` lists every command. Where Outliner's tools are connected instead of a shell, each command's help names its tool, named for its Apple app (`search_apple_apps`, `fetch_apple_item`, `list_apple_reminders`, `create_apple_note` and the rest), with the same arguments.
 
 Finding:
 

@@ -1,16 +1,18 @@
 {
   "name": "outliner",
   "displayName": "Outliner",
-  "version": "1.0.0",
-  "description": "Your Apple notes, reminders, calendar, contacts, messages and mail, searchable by Claude Code on your Mac through the Outliner app.",
+  "version": "1.1.0",
+  "description": "Your Apple Notes, Reminders, Calendar, Contacts, Messages and Mail in Claude, through Outliner Pro on your Mac: the outliner command in Claude Code, the Outliner connector everywhere else",
   "author": {
     "name": "system operator",
     "url": "https://systemoperator.com"
   },
   "homepage": "https://outliner.app",
   "repository": "https://github.com/systemoperators/claude-plugins",
+  "documentationUrl": "https://outliner.app/docs/mcp",
+  "supportUrl": "https://outliner.app/contact",
+  "privacyPolicyUrl": "https://mcp.outliner.app/privacy",
   "license": "MIT",
-  "privacyPolicyUrl": "https://outliner.app/privacy",
   "keywords": [
     "outliner",
     "apple-notes",
