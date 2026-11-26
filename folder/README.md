@@ -10,6 +10,7 @@ Sign in with Apple or Google and choose which folders Claude can use, and whethe
 
 - one MCP server, Folder, at https://mcp.folder.dev/mcp over streamable HTTP. Connecting opens Folder's own sign-in page (OAuth 2.1); the plugin carries no key, token or password
 - skills, which tell Claude how to use its tools:
+  - folder-artifacts: Publish a page you wrote to Folder as an artifact, share it, read and wait for the notes people leave on it, and change it with a new version.
   - folder-files: Find, read, save and edit files in Folder, see their history, put a version back and share a link when asked.
   - folder-onboarding: Start with Folder: see which folders this connection reaches and how changes and undo work.
   - folder-selling: Sell or give away a file from Folder, change a product, stop it, and see how it did.
