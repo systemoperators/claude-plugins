@@ -1,6 +1,6 @@
 ---
 name: folder-onboarding
-description: Start with Folder: see which folders this connection reaches and how changes and undo work.
+description: "Start with Folder: see which folders this connection reaches and how changes and undo work."
 ---
 
 # Start using Folder

@@ -1,6 +1,6 @@
 ---
 name: bigmission
-description: Answer questions about a company's books from Bigmission: cash, rows, statements, products, tax, dates and documents, and suggest categories or keep receipts when the person allows it.
+description: "Answer questions about a company's books from Bigmission: cash, rows, statements, products, tax, dates and documents, and suggest categories or keep receipts when the person allows it."
 ---
 
 # Use Bigmission

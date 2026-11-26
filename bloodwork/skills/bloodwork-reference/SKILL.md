@@ -1,6 +1,6 @@
 ---
 name: bloodwork-reference
-description: Look up blood tests in the Bloodwork reference: what a marker measures, its published reference ranges, the tests in a panel and the tests followed for a condition.
+description: "Look up blood tests in the Bloodwork reference: what a marker measures, its published reference ranges, the tests in a panel and the tests followed for a condition."
 ---
 
 # Use the Bloodwork reference

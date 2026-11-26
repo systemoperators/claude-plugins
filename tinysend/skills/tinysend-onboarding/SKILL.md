@@ -1,6 +1,6 @@
 ---
 name: tinysend-onboarding
-description: Start with tinysend: find the newsletters this connection may use and explain what sending does.
+description: "Start with tinysend: find the newsletters this connection may use and explain what sending does."
 ---
 
 # Start using tinysend

@@ -1,6 +1,6 @@
 ---
 name: deepcalc-public-data
-description: Answer from Deepcalc's public datasets with no sign-in: World Bank indicators, countries, currencies, US states, US sales tax, the US federal income tax brackets and EU VAT rates, each number with its source.
+description: "Answer from Deepcalc's public datasets with no sign-in: World Bank indicators, countries, currencies, US states, US sales tax, the US federal income tax brackets and EU VAT rates, each number with its source."
 ---
 
 # Answer from Deepcalc's public data

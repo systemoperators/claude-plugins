@@ -1,6 +1,6 @@
 ---
 name: superclock-onboarding
-description: Set up Superclock: connect it, then check an iPhone is signed in.
+description: "Set up Superclock: connect it, then check an iPhone is signed in."
 ---
 
 # Superclock onboarding
