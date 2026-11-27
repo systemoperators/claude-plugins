@@ -88,6 +88,11 @@
       "name": "basicmoney",
       "source": "./basicmoney",
       "description": "Bank, card and brokerage statements to spreadsheets, each one checked to add up."
+    },
+    {
+      "name": "basicmusic",
+      "source": "./basicmusic",
+      "description": "Chord shapes, easier chords with a capo, tunings, strums, a metronome and songs to play."
     }
   ]
 }

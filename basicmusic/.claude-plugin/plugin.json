@@ -1,0 +1,19 @@
+{
+  "name": "basicmusic",
+  "displayName": "Basic Music",
+  "version": "1.0.0",
+  "description": "Chord shapes, easier chords with a capo, tunings, strums, a metronome and songs to play.",
+  "author": {
+    "name": "system operator",
+    "url": "https://systemoperator.com"
+  },
+  "homepage": "https://basicmusic.app/mcp",
+  "repository": "https://github.com/systemoperators/claude-plugins",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://basicmusic.app/privacy",
+  "keywords": [
+    "basicmusic",
+    "education",
+    "mcp"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "basicmusic": {
+      "type": "http",
+      "url": "https://mcp.basicmusic.app/mcp"
+    }
+  }
+}
