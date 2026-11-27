@@ -9,7 +9,7 @@ Use these when the person asks to publish, share or keep a page you made (a repo
 
 ## Publish
 
-publish_artifact keeps the page's files in Artifacts/{name} in their folder on Folder and answers its address, folder.dev/artifact/{code}. It opens for the person alone until they share it. Several files (pictures, data, scripts) go up as one zip through create_upload_link, then publish_artifact with from.
+publish_artifact keeps the page's files in Artifacts/{name} in their folder on Folder and answers its address, folder.dev/artifact/{code}. It opens for the person alone until they share it. Give it an icon word, like chart, calendar or recipe, for its tab. Several files (pictures, data, scripts) go up as one zip through create_upload_link, then publish_artifact with from. An artifact over 20 MB goes up file by file, each through its own create_upload_link into one folder, then publish_artifact with from set to that folder. A version holds up to 511 files and 256 MB; a page or text file up to 16 MB, any other file up to 15 MB.
 
 ## Share
 
