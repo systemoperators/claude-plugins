@@ -5,15 +5,21 @@ description: Publish a page you wrote to Folder as an artifact, share it, read a
 
 # Publish a page and work from its notes
 
-Use these when the person asks to publish, share or keep a page you made (a report, a chart, a small app), or asks what people said about one. They work where Folder offers publish_artifact. A page from this chat is HTML; a Claude artifact's body works as it is.
+Use these when the person asks to publish, keep or share a page you made (a report, a chart, a small app), or asks what people said about one. A page needs their folder on Folder, connected with Read and Change. A Claude artifact's body works as it is.
 
 ## Publish
 
-publish_artifact keeps the page's files in Artifacts/{name} in their folder on Folder and answers its address, folder.dev/artifact/{code}. It opens for the person alone until they share it. Give it an icon word, like chart, calendar or recipe, for its tab. Several files (pictures, data, scripts) go up as one zip through create_upload_link, then publish_artifact with from. An artifact over 20 MB goes up file by file, each through its own create_upload_link into one folder, then publish_artifact with from set to that folder. A version holds up to 511 files and 256 MB; a page or text file up to 16 MB, any other file up to 15 MB.
+Write the page as HTML: index.html, with styles, scripts, data and pictures as other files beside it by relative path. publish_artifact keeps them in Artifacts/{name} in their folder on Folder and answers the page's address, folder.dev/artifact/{code}. Only they can open it until they share it. Give it an icon word for its tab, like chart, calendar or recipe, and give them the address.
+
+- In a chat: pass the files in files, text as {path, text} and a picture or a font as {path, base64}, up to 255 files and 20 MB in one call.
+- Where you can run commands, as in Claude Code: zip the page's folder, send the zip with create_upload_link and its one curl, then call publish_artifact with from set to the zip's path. Pass session as $CLAUDE_CODE_SESSION_ID and rex_block as $REX_BLOCK when they are set, so the person can go back to where it was made.
+- Over 20 MB: send each file with its own create_upload_link into one folder, then set from to that folder. from may name any folder already in their folder on Folder; it is published where it is.
+
+A version holds up to 511 files and 256 MB; a page or text file up to 16 MB, any other file up to 15 MB.
 
 ## Share
 
-share_artifact picks who can open it: only them, anyone signed in at a company's domain, anyone with the link, or anyone with a password. It asks first: say who will be able to open it, and go on only after they say yes. stop_artifact ends that the same way.
+share_artifact picks who can open it: only-me, company (people signed in at the email domains in company_domains), link (anyone with the link) or password. It asks first: say who will be able to open it, and go on only after they say yes. stop_artifact takes the page down the same way; its files stay in their folder.
 
 ## Notes
 
@@ -21,6 +27,6 @@ People leave numbered notes on the page (#1, #2), each pinned to the words they 
 
 ## Change
 
-update_artifact saves the next version from the version you read (base_version), with a one-line summary of what changed and answers naming the notes it settles (#2). Edit with old and new text that appears once; put and remove whole files. Then reply_to_artifact_note says what you did, under the note. To keep going, wait again.
+Read it with get_artifact first: it gives base_version and the files. update_artifact saves the next version from that one, with a one-line summary, and answers naming the notes it settles (#2). Small changes go as edits (old text that appears once in the file, and the new text), whole files as files, and files to delete in remove; a zip through from replaces them all. When someone saved a newer version, it is refused: read again. Then reply_to_artifact_note says what you did, under the note, and resolves it. To keep going, wait again.
 
-Report an address or a version only after the tool answers with it.
+list_artifacts lists their pages with each address and who can open it. Report an address or a version only after the tool answers with it.
