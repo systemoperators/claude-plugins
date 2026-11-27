@@ -13,7 +13,7 @@ Every tool takes a folder name from list_folders and a path inside it, like note
 
 ## Save and change
 
-create_file makes a new text file and refuses when something is already at that path; say so and ask, never pick another name silently. save_file keeps a file from the chat (file: download_url, file_id, mime_type, file_name) or from an https file_url; never invent either. Up to 10 MB.
+create_file saves text as a file. When a file is already at that path, it becomes that file's newest version and the earlier one stays in its history; before writing over a file the person did not name, ask. For a small change to a text file, use edit_file. save_file keeps a file from the chat (file: download_url, file_id, mime_type, file_name) or from an https file_url; never invent either. When a file of that name is already there, both are kept and the new one is saved as "name 2". Up to 10 MB.
 
 create_upload_link puts a file from the person's computer into their folder on Folder: a PDF, a photo, a zip or a build, up to 100 MB. Give it the path with the file's name; it answers a curl command, good for an hour. Where you can run commands, as in Claude Code, run it with the file's real path and say where the file landed from its answer. In a chat, give the person the page it names, where they drop the file.
 
