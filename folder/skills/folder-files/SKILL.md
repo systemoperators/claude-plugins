@@ -31,7 +31,7 @@ Deleting, moving and renaming files are not available. Say so and point to Finde
 
 ## Available tools
 
-Generated from ops-registry.json: 28 tools. Only v1 operations are available.
+Generated from ops-registry.json: 32 tools. Only v1 operations are available.
 
 | Read tool | Returns |
 |---|---|
@@ -46,6 +46,7 @@ Generated from ops-registry.json: 28 tools. Only v1 operations are available.
 | get_artifact | one artifact: its address, who can open it, its files, and every version with who made it, why, and the notes it answered |
 | list_artifact_notes | the artifact's notes (numbered, each with the quote it is pinned to, the version it was made on, its state and every reply) and its chat |
 | wait_for_artifact_notes | the notes and chat messages people left on the artifact since you last answered there (or since the time given); where your client runs tasks, a task that waits up to an hour and finishes when the first one arrives |
+| list_domains | each free name on folder.dev and each of their own domains: its address, what it shows (a website from a folder, or their share links and shop), whether it is live, what is wrong, and the DNS records still to add; how many free names are left, whether they have Folder Pro, and the free name offered for a new website |
 
 | Write tool | Action | Operation | Approval |
 |---|---|---|---|
@@ -66,3 +67,6 @@ Generated from ops-registry.json: 28 tools. Only v1 operations are available.
 | share_artifact | share | Share an artifact | Ask for approval first |
 | set_artifact_status | status | Say what you are doing on an artifact | No extra approval |
 | reply_to_artifact_note | answer | Answer a note on an artifact | No extra approval |
+| publish_site | publish | Publish a website | Ask for approval first |
+| add_domain | add | Add your own domain | No extra approval |
+| unpublish_site | unpublish | Stop a website | Ask for approval first |

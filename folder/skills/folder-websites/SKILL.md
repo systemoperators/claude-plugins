@@ -5,7 +5,7 @@ description: Put a folder from Folder online as a website, at a free name on fol
 
 # Put a folder online as a website
 
-Use this when the person asks to put a site, a portfolio or a folder of pages on the web. This connection writes the pages; the person puts the folder online on folder.dev.
+Use these when the person asks to put a site, a portfolio or a folder of pages on the web, at a folder.dev name or at a domain they own.
 
 A website is a folder in their folder on Folder that anyone can open at an address. Its index.html is the home page, a folder's own index.html is that folder's page, and 404.html shows for a page that is not there. For one page with notes that starts private, use folder-artifacts instead.
 
@@ -13,9 +13,13 @@ Write the pages into one folder, like Sites/blog: text with create_file, picture
 
 ## Where it opens
 
-On folder.dev, Settings › Domains (and Settings › Domains in Folder for Mac, iPhone and iPad):
+list_domains lists their websites and domains, what each shows, whether it is live, and how many free names are left.
 
-- A Free Name on folder.dev: they pick the folder and the name, like blog-anna.folder.dev, and Add Name. It opens at once. Pages there run sandboxed, with no cookies and no saved data of their own.
-- Your Own Domain: a domain they own, with the DNS record the page shows. It opens once the record is in place.
+- A free name on folder.dev: their handle (anna.folder.dev) or a name joined to it (blog-anna.folder.dev). It opens at once. Pages there run sandboxed, with no cookies and no saved data of their own.
+- A domain they own: add_domain adds it (Folder Pro, up to 5) and answers the DNS record to add where the domain is managed. It opens once the record is in place, and list_domains says when it is live. Until a website goes there, it shows their share links and shop.
 
-A folder's settings on folder.dev show its websites. Tell them where to go; do not say a site is online until they say it is.
+## Publish and take down
+
+publish_site takes the folder, the path of the site's folder inside it, and domain: one of theirs, a free name, or left out for the name Folder offers. The first call says who will be able to open it and answers a confirm code. Ask the person, and only after they say yes call again with that code. Give them the address it returns.
+
+unpublish_site takes a website down the same way. The folder and its files stay; a free name is let go, and their own domain shows their share links and shop again. Removing a domain from Folder is done in Settings › Domains on folder.dev.
