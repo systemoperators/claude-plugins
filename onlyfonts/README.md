@@ -2,9 +2,11 @@
 
 OnlyFonts finds free fonts for whatever you are making and gives you the code to use them, from a catalog of thousands of free fonts.
 
-Ask for a style, a mood or a use, like a warm serif for a bakery menu or a monospace for a code blog, and it searches the catalog by how the fonts look. Ask about one font to see its weights, its license, the languages it covers and the fonts that pair with it. Then ask for the CSS: one stylesheet link loads every family you picked from cdn.onlyfonts.ai, in the same css2 format as Google Fonts.
+Ask for a style, a mood or a use, like a warm serif for a bakery menu or a monospace for a code blog, and it searches the catalog by how the fonts look. Ask about one font to see its weights, its license, the languages it covers and the fonts that pair with it. Then ask for the CSS: one stylesheet link loads every family you picked from cdn.onlyfonts.ai, in the same css2 format as Google Fonts. It comes with the lines for Next.js and Tailwind CSS too.
 
-Every font is under the SIL Open Font License or the Apache License, free for any project, commercial too. No account is needed.
+Ask for an icon, like a settings gear or a red trash can. It searches six open icon sets: Lucide, Heroicons, Material Symbols, Phosphor, Pierre and Tabler. Each icon comes as SVG in the color and style you want, with its license line.
+
+Every font is under the SIL Open Font License or the Apache License, and every icon under its set's open license, free for any project, commercial too. No account is needed.
 
 It cannot install fonts on your computer, name the font in a picture, or find paid fonts.
 
@@ -12,7 +14,7 @@ It cannot install fonts on your computer, name the font in a picture, or find pa
 
 - one MCP server, OnlyFonts, at https://mcp.onlyfonts.ai/mcp over streamable HTTP. It needs no account and no sign-in; the plugin carries no key, token or password
 - skills, which tell Claude how to use its tools:
-  - onlyfonts-fonts: Choose free fonts for a project and give the code to use them, with the onlyfonts tools.
+  - onlyfonts-fonts: Choose, pair and set free fonts for a project the way a good designer would, with sources, and give the code to use them, with the onlyfonts tools.
 
 ## Install
 

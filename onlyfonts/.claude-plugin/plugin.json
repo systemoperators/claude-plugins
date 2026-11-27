@@ -1,8 +1,8 @@
 {
   "name": "onlyfonts",
   "displayName": "OnlyFonts",
-  "version": "1.0.0",
-  "description": "Free, openly licensed fonts and the CSS to use them.",
+  "version": "1.2.0",
+  "description": "Free, openly licensed fonts and icons, and the code to use them.",
   "author": {
     "name": "system operator",
     "url": "https://systemoperator.com"
@@ -13,7 +13,7 @@
   "privacyPolicyUrl": "https://onlyfonts.ai/privacy",
   "keywords": [
     "onlyfonts",
-    "design",
+    "developer tools",
     "mcp"
   ]
 }
